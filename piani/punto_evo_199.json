@@ -1,0 +1,125 @@
+{
+  "model": "Fiat Punto Evo (199)",
+  "variants": [
+    "1.2 8v benzina",
+    "1.4 8v benzina",
+    "1.4 16v benzina",
+    "1.4 MultiAir benzina",
+    "1.4 Turbo MultiAir benzina",
+    "1.3 MultiJet diesel",
+    "1.6 MultiJet diesel"
+  ],
+  "source": "Manuale uso e manutenzione Fiat 603.81.641 — Piano di manutenzione programmata (pag. 212-216)",
+  "note": "Intervalli ufficiali casa madre. Benzina: base 30.000 km. Diesel EURO5: base 35.000 km. Dove un intervento cambia per motore e' indicato nel campo engine/note.",
+  "tasks": [
+    {
+      "name": "Cambio olio motore",
+      "category": "Olio motore",
+      "km": 30000,
+      "months": 24,
+      "engine": "Benzina",
+      "notes": "Con filtro olio. Se uso prevalentemente urbano: ogni 12 mesi."
+    },
+    {
+      "name": "Cambio olio motore",
+      "category": "Olio motore",
+      "km": 35000,
+      "months": 24,
+      "engine": "Diesel EURO5",
+      "notes": "Con filtro olio. Con DPF: alla spia o ogni 24 mesi; uso urbano/<10.000 km/anno ogni 12 mesi."
+    },
+    {
+      "name": "Candele",
+      "category": "Accensione",
+      "km": 30000,
+      "engine": "Benzina",
+      "notes": "1.4 Turbo MultiAir: candele specifiche certificate (vedi rete Fiat)."
+    },
+    {
+      "name": "Filtro aria",
+      "category": "Filtri",
+      "km": 60000,
+      "engine": "Benzina",
+      "notes": "Cartuccia filtro aria."
+    },
+    {
+      "name": "Filtro aria",
+      "category": "Filtri",
+      "km": 35000,
+      "engine": "Diesel EURO5",
+      "notes": "Cartuccia filtro aria (diesel EURO4: ogni 30.000 km)."
+    },
+    {
+      "name": "Filtro carburante",
+      "category": "Filtri",
+      "km": 70000,
+      "engine": "Diesel",
+      "notes": "Versioni diesel. EURO4: ogni 60.000 km."
+    },
+    {
+      "name": "Filtro abitacolo (antipolline)",
+      "category": "Filtri",
+      "km": 30000,
+      "months": 15,
+      "notes": "Benzina 30.000 km / diesel 35.000 km, oppure ogni 15 mesi."
+    },
+    {
+      "name": "Liquido freni",
+      "category": "Freni",
+      "km": 60000,
+      "months": 24,
+      "notes": "Oppure ogni 24 mesi (diesel: 70.000 km)."
+    },
+    {
+      "name": "Cinghia distribuzione + pompa acqua",
+      "category": "Distribuzione",
+      "km": 120000,
+      "months": 60,
+      "engine": "Benzina / 1.3 MultiJet",
+      "notes": "Cinghia dentata: 120.000 km o 5 anni; 4 anni in uso gravoso (climi freddi, citta', lunghe soste)."
+    },
+    {
+      "name": "Cinghia distribuzione + pompa acqua",
+      "category": "Distribuzione",
+      "km": 140000,
+      "months": 60,
+      "engine": "1.6 MultiJet",
+      "notes": "Cinghia dentata: 140.000 km o 5 anni; 4 anni in uso gravoso."
+    },
+    {
+      "name": "Cinghia servizi",
+      "category": "Distribuzione",
+      "km": 120000,
+      "notes": "Cinghia comando accessori: controllo visivo a 60.000 km, sostituzione a 120.000 km."
+    },
+    {
+      "name": "Verifica gioco punterie",
+      "category": "Punterie / valvole",
+      "km": 60000,
+      "engine": "1.2 8v / 1.4 8v",
+      "notes": "Controllo ed eventuale regolazione gioco punterie."
+    }
+  ],
+  "reference": [
+    {
+      "category": "fuses",
+      "title": "Fusibili plancia portastrumenti",
+      "body": "Centralina sulla plancia portastrumenti.\nAccesso: svita le viti A-fig.189 e togli\nla copertura. (14 sedi, fig.190)\n\nF1   7,5A Anabbagliante destro\nF2   5A   Plafoniere ant/post, luci porte,\n          luce bagagliaio, cassetto plancia\nF3   5A   Quadro strumenti\nF4   20A  Blocco/sblocco porte, dead lock,\n          sblocco portellone\nF5   10A  +batteria: diagnosi EOBD, clima\n          autom., sirena allarme, autoradio\nF6   20A  Elettropompa lavacristallo/lavalunotto\nF7   20A  Alzacristallo ant. lato passeggero\nF8   7,5A Anabbagliante sx, correttore fari\nF10  7,5A Stop (contatto NC), frizione,\n          riscald. interno, retromarcia,\n          preriscaldo candelette, debimetro\nF11  5A   Quadro strum., pedale stop (NO),\n          3o stop\nF12  5A   Plancette comandi, parcheggio, TPMS,\n          specchi elettrici, sens. pioggia,\n          tetto elettrico, my-port\nF13  5A   Bobine teleruttori centr. motore\n          e body computer\nF14  20A  Alzacristallo ant. lato guida\n\nSostituisci sempre con un fusibile di\nuguale amperaggio (stesso colore)."
+    },
+    {
+      "category": "fuses",
+      "title": "Fusibili vano motore",
+      "body": "Centralina nel vano motore, accanto\nalla batteria. Accesso: togli il\ncoperchio di protezione (fig.191).\n\nF9   20A  Hi-Fi: autoradio, centr., subwoofer\nF10  10A  Avvisatore acustico (clacson)\nF14  15A  Abbaglianti sx + dx\nF15  30A  Riscaldatore supplementare PTC\nF19  7,5A Compressore condizionatore\nF20  30A  Lunotto termico\nF21  15A  Elettropompa carburante\nF30  15A  Fendinebbia sx + dx\nF84  7,5A Elettrovalvole impianto metano (CNG)\nF85  --   Presa corrente (predisposizione)\nF86  15A  Presa corrente abitacolo, accendisig.\nF87  5A   Sensore IBS carica batteria\nF88  7,5A Sbrinatore specchi esterni\n\nNON sostituire un MEGA/MIDI/MAXI-FUSE\nda soli: rivolgiti alla rete Fiat."
+    },
+    {
+      "category": "fuses",
+      "title": "Fusibili vano bagagli",
+      "body": "Centralina sul lato sinistro del vano\nbagagli. Accesso: apri lo sportellino\ndi ispezione (fig.193-194).\n\nF04  10A  Lombare elettrico sedile guida\nF05  15A  Presa corrente vano bagagliaio\nF07  --   Gancio traino (predisp. after-market)\nF08  10A  Termoforo sedile lato guida\nF09  10A  Termoforo sedile passeggero\nF10  20A  Alzacristallo porta lato destro\nF11  20A  Alzacristallo porta lato sinistro\nF13  5A   Rilevazione pressione gomme (TPMS)\nF14  7,5A Centralina allarme\nF17  20A  Tetto apribile elettrico\n\n(F01 F02 F03 F06 F15 F16 = disponibili)"
+    },
+    {
+      "category": "bulbs",
+      "title": "Lampadine",
+      "body": "Tipo e potenza delle lampadine.\nLe alogene: toccale solo sulla parte\nmetallica (mai il bulbo di vetro).\n\n--- ANTERIORI ---\nAbbaglianti/Anabbaglianti H4    55/60W\nLuci diurne (DRL)         W21W   21W\nPosizioni anteriori       W5W    5W\nFendinebbia (se previsti) H11    55W\nFrecce anteriori          PY21W  21W\nFrecce laterali           WY5W   5W\n\n--- POSTERIORI ---\nFrecce posteriori         PY21W  21W\nPosizioni posteriori      LED\nStop                      P21W   21W\n3o stop                   W2,3W  2,3W\nRetromarcia               W16W   16W\nRetronebbia               W16W   16W\nTarga                     W5W    5W\n\n--- INTERNE ---\nPlafoniera ant. basculante C10W  10W\nPlafoniera ant. luci spot  C10W  10W\nPlafoniera posteriore      C10W  10W\nPlafoniera di cortesia     C5W   5W\nLuce bagagliaio            W5W   5W\n\nLe luci a LED (posizioni post., luci\ndiurne su alcuni allestimenti) si\ncambiano in officina."
+    }
+  ]
+}
