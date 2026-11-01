@@ -1,0 +1,99 @@
+{
+  "model": "Lancia Ypsilon (846) 1.2 8v (2011-2015)",
+  "variants": [
+    "1.2 8v 69cv benzina (Fire)",
+    "1.2 8v EcoChic GPL/metano",
+    "1.3 Multijet 95cv diesel"
+  ],
+  "source": "Libretto Uso e Manutenzione Lancia Ypsilon 2012 — Piano di Manutenzione Programmata (pag. 167-168).",
+  "note": "Intervalli ufficiali Lancia, base ogni 30.000 km. Voci specifiche per 1.2 8v benzina e 1.3 Multijet diesel come da libretto. (La 0.9 TwinAir ha un piano diverso, non incluso.)",
+  "tasks": [
+    {
+      "name": "Cambio olio motore",
+      "category": "Olio motore",
+      "km": 30000,
+      "months": 24,
+      "engine": "1.2 8v benzina",
+      "notes": "Con filtro olio. Oppure ogni 24 mesi. Uso prevalentemente urbano o <10.000 km/anno: ogni 12 mesi. Controllo livello ogni 3.000 km."
+    },
+    {
+      "name": "Cambio olio motore",
+      "category": "Olio motore",
+      "months": 24,
+      "engine": "1.3 Multijet diesel (DPF)",
+      "notes": "Con filtro olio. Alla spia sul quadro strumenti oppure ogni 24 mesi. Uso prevalentemente urbano: ogni 12 mesi."
+    },
+    {
+      "name": "Candele",
+      "category": "Accensione",
+      "km": 30000,
+      "engine": "1.2 8v benzina",
+      "notes": "Ogni 30.000 km."
+    },
+    {
+      "name": "Filtro aria",
+      "category": "Filtri",
+      "km": 60000,
+      "notes": "Sostituzione cartuccia filtro aria ogni 60.000 km."
+    },
+    {
+      "name": "Filtro carburante",
+      "category": "Filtri",
+      "km": 60000,
+      "engine": "1.3 Multijet diesel",
+      "notes": "Cartuccia filtro combustibile (Green-filter) ogni 60.000 km."
+    },
+    {
+      "name": "Filtro abitacolo (antipolline)",
+      "category": "Filtri",
+      "km": 30000,
+      "months": 12,
+      "notes": "Ogni 30.000 km o comunque ogni anno."
+    },
+    {
+      "name": "Liquido freni",
+      "category": "Freni",
+      "km": 60000,
+      "months": 24,
+      "notes": "Ogni 60.000 km oppure ogni 2 anni."
+    },
+    {
+      "name": "Cinghia distribuzione",
+      "category": "Distribuzione",
+      "km": 120000,
+      "months": 60,
+      "engine": "1.2 8v benzina",
+      "notes": "Cinghia dentata: 120.000 km; oppure 4 anni in uso gravoso (climi freddi/caldi, citta' al minimo, strade polverose/sale), o 5 anni comunque. Controllo condizioni a 60.000 e 180.000 km."
+    },
+    {
+      "name": "Cinghia servizi",
+      "category": "Distribuzione",
+      "km": 120000,
+      "notes": "Cinghia comando accessori: sostituzione a 120.000 km; controllo visivo a 60.000 e 180.000 km."
+    },
+    {
+      "name": "Verifica gioco punterie",
+      "category": "Punterie / valvole",
+      "km": 60000,
+      "engine": "1.2 8v benzina",
+      "notes": "Controllo ed eventuale regolazione del gioco punterie ogni 60.000 km."
+    }
+  ],
+  "reference": [
+    {
+      "category": "fuses",
+      "title": "Fusibili plancia",
+      "body": "Centralina su plancia portastrumenti,\nlato sinistro del piantone guida.\nAccesso: togli la plastica di protezione.\n\nF12  7,5A Anabbagliante destro\nF13  7,5A Anabbagliante sx / assetto fari\nF31  5A   Rele' vano motore, body comp.\nF32  5A   Plafoniera anteriore\nF35  5A   Retromarcia, debimetro (MJT),\n          sensore acqua nel gasolio\nF36  10A  Rilascio baule\nF37  5A   Luci stop, 3o stop, quadro str.\nF38  15A  Bloccaporte\nF39  10A  Navi/autoradio/Blue&Me/clima,\n          presa diagnosi EOBD\nF40  30A  Lunotto termico\nF42  5A   ABS/VDC, sensore imbardata\nF43  30A  Tergi/pompa lavacristallo\nF44  15A  Presa corrente / accendisigari\nF47  20A  Alzacristallo lato guida\nF48  20A  Alzacristallo lato passeggero\nF49  5A   Clima, comandi, specchi,\n          alzacristalli ant, tetto, pioggia\nF50  7,5A Air bag\nF51  5A   Navi/autoradio, comandi volante,\n          Blue&Me, cruise control\nF52  15A  Tergilunotto\nF53  7,5A Quadro strumenti, retronebbia\n\n(F33 F34 F41 F45 F46 = disponibili)"
+    },
+    {
+      "category": "fuses",
+      "title": "Fusibili vano motore",
+      "body": "Centralina nel vano motore, accanto\nalla batteria. Accesso: togli il\ncoperchio di protezione.\n\nF10  15A  Avvisatore acustico (clacson)\nF14  7,5A Abbagliante destro\nF15  7,5A Abbagliante sinistro\nF19  7,5A Compressore (clima)\nF24  7,5A Centralina guida elettrica\nF30  15A  Fendinebbia\n\n(F9 F20 = disponibili)\n\nFusibili esterni:\n20A  Amplificatore Hi-Fi Bose\n     (vicino centralina plancia)\n20A  Tetto apribile (vicino plancia)\n30A  Pompa cambio robotizzato\n     (vano motore, vicino batteria)\n\nSostituisci sempre con un fusibile di\nuguale amperaggio (stesso colore)."
+    },
+    {
+      "category": "bulbs",
+      "title": "Lampadine",
+      "body": "Tipo e potenza delle lampadine.\nLe alogene: toccale solo sulla parte\nmetallica (il bulbo no).\n\n--- ESTERNE ---\nAbbaglianti          H3      55W\nAnabbaglianti        H7LL    55W\nPosizioni anteriori  W5WLL   5W\nFendinebbia          H1      55W\nFrecce anteriori     PY21W   21W\nFrecce laterali      WY5W    5W\nFrecce posteriori    P21W    21W\nPosizioni posteriori P21/5W  21W\nStop                 P21/5W  21W\n3o stop              W2.3W   2.3W\nRetromarcia          P21W    21W\nRetronebbia          P21W    21W\nTarga                C5W     5W\n\n--- INTERNE ---\nPlafoniera           W5W     10W/20W\nLuce bagagliaio      W5W     5W"
+    }
+  ]
+}
