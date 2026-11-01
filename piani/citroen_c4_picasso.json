@@ -1,0 +1,90 @@
+{
+  "model": "Citroen C4 Picasso / Grand C4 Picasso (2013-2018)",
+  "variants": [
+    "1.2 PureTech 130 benzina",
+    "1.6 VTi 120 benzina",
+    "1.6 THP 155/165 benzina",
+    "1.6 e-HDi 90/115 diesel",
+    "1.6 BlueHDi 100/120 diesel",
+    "2.0 BlueHDi 150 diesel"
+  ],
+  "source": "Guida d'uso Citroen C4 Picasso ed. 01-15. NB: questo libretto NON stampa gli intervalli del tagliando (rimanda al piano di manutenzione del Costruttore). I fusibili sono presi dal manuale (pag. 281-285).",
+  "note": "ATTENZIONE: gli intervalli qui sotto sono gli STANDARD di gamma PSA per questa generazione, NON letti da questo manuale. Verificali col libretto di manutenzione Citroen. Distribuzione dipende dal motore: 1.6 VTi/THP (EP6) = CATENA, nessuna sostituzione programmata; 1.2 PureTech = cinghia in bagno d'olio (segui campagne/libretto); diesel = cinghia dentata a lunga percorrenza. Ogni voce e' modificabile in app.",
+  "tasks": [
+    {
+      "name": "Cambio olio motore",
+      "category": "Olio motore",
+      "km": 20000,
+      "months": 24,
+      "engine": "Benzina",
+      "notes": "Standard gamma PSA, con filtro olio. In uso gravoso/urbano: ogni 12 mesi. Controllo livello ogni 5.000 km."
+    },
+    {
+      "name": "Cambio olio motore",
+      "category": "Olio motore",
+      "km": 20000,
+      "months": 24,
+      "engine": "Diesel",
+      "notes": "Standard gamma PSA, con filtro olio. e-HDi ~20.000 km; BlueHDi fino a ~25.000 km. In uso gravoso ogni 12 mesi."
+    },
+    {
+      "name": "Filtro abitacolo (antipolline)",
+      "category": "Filtri",
+      "km": 30000,
+      "months": 24,
+      "notes": "Standard gamma PSA, o ogni 2 anni. In citta'/aria polverosa: piu' spesso."
+    },
+    {
+      "name": "Filtro aria",
+      "category": "Filtri",
+      "km": 60000,
+      "notes": "Standard gamma PSA. Verifica col libretto di manutenzione."
+    },
+    {
+      "name": "Filtro carburante",
+      "category": "Filtri",
+      "km": 60000,
+      "months": 24,
+      "engine": "Diesel",
+      "notes": "Versioni diesel. BlueHDi spesso legato ai 2 anni; verifica col libretto."
+    },
+    {
+      "name": "Candele",
+      "category": "Accensione",
+      "km": 60000,
+      "engine": "Benzina",
+      "notes": "Standard gamma PSA (EP6 1.6 VTi/THP e PureTech 1.2 ~60.000 km). Verifica col libretto."
+    },
+    {
+      "name": "Liquido freni",
+      "category": "Freni",
+      "months": 24,
+      "notes": "Ogni 2 anni (standard PSA)."
+    },
+    {
+      "name": "Cinghia distribuzione + pompa acqua",
+      "category": "Distribuzione",
+      "km": 180000,
+      "months": 120,
+      "engine": "Diesel (DV6/DW10)",
+      "notes": "Standard gamma PSA diesel: cinghia a lunga percorrenza (~180.000 km o 10 anni). SOLO diesel: 1.6 VTi/THP hanno la CATENA (non si sostituisce). Verifica col libretto."
+    }
+  ],
+  "reference": [
+    {
+      "category": "fuses",
+      "title": "Fusibili abitacolo",
+      "body": "Due architetture secondo gli optional.\nPer capire il tipo apri il cofano:\nse c'e' una scatola fusibili in piu'\nDAVANTI alla batteria = TIPO 2,\naltrimenti = TIPO 1.\n\n===== TIPO 1 (abitacolo) =====\nScatola 1\nF8   5A  Comandi al volante\nF18  20A Touch/audio/nav, USB, AUX\nF16  15A Presa 12V anteriore\nF15  15A Presa 12V bagagliaio\nF28  5A  Pulsante START/STOP\nF30  15A Tergicristallo posteriore\nF27  15A Pompe lavacristallo ant/post\nF26  15A Avvisatore acustico (clacson)\nF20  5A  Airbag\nF21  5A  Quadro strumenti\nF19  5A  Sensore pioggia/luminosita'\nF12  5A  Avviamento senza chiave\nF2   5A  Regolazione manuale fari\nScatola 2\nF9   15A Presa 12V posteriore\n\n===== TIPO 2 (abitacolo) =====\nF3   3A  Pulsante START/STOP\nF6A  15A Touch/audio/nav, USB, AUX\nF8   5A  Allarme\nF9   3A  Comandi al volante\nF19  5A  Quadro strumenti\nF24  3A  Sensore pioggia/luminosita'\nF25  5A  Airbag\nF33  3A  Memoria posizione di guida\nF34  5A  Servosterzo elettrico\nF13  10A Presa 12V anteriore\nF14  10A Presa 12V bagagliaio\nF16  3A  Luci lettura plafoniera fila 1\nF27  5A  Leva cambio pilotato\nF30  20A Tergicristallo posteriore\nF38  3A  Regolazione manuale fari\n\nLa pinzetta di estrazione e' nel vano\nfusibili del cruscotto (lato sinistro)."
+    },
+    {
+      "category": "fuses",
+      "title": "Fusibili vano motore",
+      "body": "Scatola nel vano motore, accanto alla\nbatteria (lato sinistro). Nel TIPO 2\nc'e' anche una scatola DAVANTI batteria.\nAccesso: spingi i 2 lucchetti rossi\nverso il retro e sgancia il coperchio.\n\n===== TIPO 1 (vano motore) =====\nF18  10A Faro abbagliante destro\nF19  10A Faro abbagliante sinistro\n\n===== TIPO 2 (vano motore) =====\nScatola 1\nF9   30A Portellone bagagliaio motoriz.\nF18  25A Amplificatore HIFI\nF21  3A  Avviamento senza chiave\nScatola 2\nF19  30A Tergicristallo ant. (bassa/alta)\nF20  15A Pompa lavacristalli ant/post\nF21  20A Pompa lavafari\n\nSostituisci sempre con un fusibile di\nuguale intensita' (stesso colore)."
+    },
+    {
+      "category": "bulbs",
+      "title": "Lampadine",
+      "body": "Secondo l'allestimento: fari allo xeno\no alogeni. Alcune luci sono a LED: per\nquelle rivolgersi all'officina.\n\n--- ANTERIORI ---\nAnabbaglianti alogeni  H7      55W\nAnabbaglianti xeno     D5S     25W (*)\nAbbaglianti            H7      55W\nFendinebbia            H11     55W\nFrecce anteriori       PWY24W  24W\nDiurne/posizione ant.  LED\nFrecce laterali        LED\n\n--- POSTERIORI ---\nFrecce posteriori      PY21W   21W (ambra)\nPosizione/fendinebbia  P21/5W  21W\nStop/posiz. (lampade)  P21/5W  21W\nRetromarcia            W16W    16W\nTarga                  W5W     5W\n3o stop                LED\nStop/posiz. (fari LED) LED\n\n(*) Lo xeno D5S si sostituisce in officina\n(alta tensione, pericolo). Le alogene:\ntoccale solo sulla parte metallica."
+    }
+  ]
+}
